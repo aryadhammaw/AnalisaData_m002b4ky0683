@@ -18,7 +18,7 @@ max_date = dfHour["dteday"].max()
 #meminta input dari user
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("logo_itb.png")
+    st.image("data/logo_itb.png")
     
     # Mengambil tanggal dari user
     selected_date = st.date_input(
