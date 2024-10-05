@@ -33,7 +33,7 @@ filtered_df_hour = dfHour[(dfHour["dteday"] >= pd.to_datetime(start_date)) & (df
 filtered_df_day = dfDay[(dfDay["dteday"] >= pd.to_datetime(start_date)) & (dfDay["dteday"] <= pd.to_datetime(end_date))]
 
 st.header('Proyek Dicoding Analisa Data [Bike Sharing Dataset]')
-st.write('for more analysis, check my code on colab: https://drive.google.com/file/d/1tOcfvM-OdNYXkPSziKBqsODkIzzxthBT/view?usp=sharing')
+st.write('for more analysis, check my code on colab: https://colab.research.google.com/drive/1tOcfvM-OdNYXkPSziKBqsODkIzzxthBT')
 st.subheader('Which times of day experience the highest bike users ("cnt") across selected start and end date?')
 st.write('Select the date provided from left corner of your screen')
 
